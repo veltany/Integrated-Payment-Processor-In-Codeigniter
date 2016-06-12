@@ -10,7 +10,7 @@ class Voguepay {
         
         
         
-        public function __construct($params)
+        public function __construct($params=array())
         {
                 // Assign the CodeIgniter super-object
                 $this->CI =& get_instance();
